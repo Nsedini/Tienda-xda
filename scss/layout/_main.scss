@@ -4,9 +4,10 @@
     background-color: $xda-white;
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 35% 65%;
+    grid-template-columns: 40% 60%;
     grid-template-rows: auto; 
-   
+    margin: 1rem 11rem;
+  
 }
 .info {
     width: 100%;
@@ -14,8 +15,9 @@
 }
 .image {
     width: 100%;
+    text-align: right;
 
     img {
-        width: 30rem;
+        width: 100%;
     }
 }
