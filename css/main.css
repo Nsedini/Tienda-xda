@@ -9934,14 +9934,33 @@ body, html {
   box-sizing: border-box;
 }
 
+header {
+  background-color: #FFF;
+}
+
+.logo {
+  background-color: #0C0910;
+  margin-left: 7rem;
+  color: #FFF;
+  padding: 1rem 1rem;
+}
+
+ul {
+  margin-right: 8rem;
+}
+ul li a {
+  color: #0C0910;
+}
+
 .contenedor {
   width: 90rem;
   max-width: 1000px;
   background-color: #FFF;
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: 35% 65%;
+  grid-template-columns: 40% 60%;
   grid-template-rows: auto;
+  margin: 1rem 11rem;
 }
 
 .info {
@@ -9951,15 +9970,20 @@ body, html {
 
 .image {
   width: 100%;
+  text-align: right;
 }
 .image img {
-  width: 30rem;
+  width: 100%;
 }
 
 .footer {
+  color: #FFF;
   background-color: #0C0910;
-  width: 30%;
-  margin-left: 5rem;
+  width: 28%;
+  margin-left: 8.5rem;
+  position: relative;
+  top: -13rem;
+  padding: 2rem 5rem 3rem 3rem;
 }
 
 .btn {
