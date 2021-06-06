@@ -9958,8 +9958,13 @@ body, html {
 
 .footer {
   background-color: #0C0910;
-  width: 35%;
-  margin: 5% 0;
+  width: 30%;
+  margin-left: 5rem;
+}
+
+.btn {
+  border: solid 2px #0C0910;
+  color: #0C0910;
 }
 
 /*# sourceMappingURL=main.css.map */
